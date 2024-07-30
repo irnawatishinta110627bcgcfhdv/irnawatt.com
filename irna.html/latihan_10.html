@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style_10.css" />
+  </head>
+  <body>
+    <div class="navigasi">
+      <div class="ikon">
+        <h2>irnaaa</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <h1>My Gallery</h1>
+    <div class="container">
+      <img src=" 11.jpg" class="preview-img" id="preview-img" alt="" />
+    </div>
+    <div class="gallery">
+      <img src="1.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="2.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="3.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src=" 4.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="5.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="6.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="7.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src="8.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src=" 9.jpg" onclick="imgPrewiew(this.src)" alt="" />
+      <img src=" 10.jpg" onclick="imgPrewiew(this.src)" alt="" />
+    </div>
+    <script>
+      const imgPrewiew = (src) => {
+        document.getElementById("preview-img").src = src;
+      }
+    </script>
+  </body>
+</html>
